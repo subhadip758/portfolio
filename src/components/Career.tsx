@@ -5,8 +5,7 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          Education <span>&</span>
-          <br /> experience
+          Experience
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -36,10 +35,21 @@ const Career = () => {
               Completed internship on Generative AI. Also earned Google AI Essentials Course certificate and participated in a Live Masterclass on Microsoft Co Pilot.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="career-container">
+        <h2>
+          Education
+        </h2>
+        <div className="career-info">
+          <div className="career-timeline">
+            <div className="career-dot"></div>
+          </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Education: B.Tech in CSE (AI & ML)</h4>
+                <h4>B.Tech in CSE (AI & ML)</h4>
                 <h5>Brainware University</h5>
               </div>
               <h3>PRESENT</h3>
@@ -50,6 +60,30 @@ const Career = () => {
           </div>
         </div>
       </div>
+
+      <div className="career-container">
+        <h2>
+          Membership
+        </h2>
+        <div className="career-info">
+          <div className="career-timeline">
+            <div className="career-dot"></div>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Member</h4>
+                <h5>IAENG</h5>
+              </div>
+              <h3>PRESENT</h3>
+            </div>
+            <p>
+              Active member of the International Association of Engineers (IAENG).
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };
