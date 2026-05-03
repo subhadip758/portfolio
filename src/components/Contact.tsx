@@ -51,6 +51,9 @@ const Contact = () => {
             >
               ResearchGate <MdArrowOutward />
             </a>
+            <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="subhadip-pal-1881b1315" data-version="v1" style={{marginTop: "20px"}}>
+              <a className="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/subhadip-pal-1881b1315?trk=profile-badge">Subhadip Pal</a>
+            </div>
           </div>
           <div className="contact-box">
             <h2>
